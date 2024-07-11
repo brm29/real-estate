@@ -1,0 +1,123 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #555;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero h1,
+.hero p {
+    color: #ffffff;
+}
+
+.hero-actions .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.hero-actions .btn-primary:hover {
+    background-color: #218838;
+}
+
+.about-section {
+    background-color: #ffffff;
+    color: #333;
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    color: #333;
+}
+
+.services-section {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 60px 0;
+}
+
+.services-section h2 {
+    color: #333;
+}
+
+.services-section .service-item h5 {
+    color: #333;
+}
+
+.services-section .service-item p {
+    color: #555;
+}
+
+.listings-section {
+    background-color: #ffffff;
+    color: #333;
+    padding: 60px 0;
+}
+
+.listings-section h2 {
+    color: #333;
+}
+
+.contact-section {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 60px 0;
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.contact-section form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.contact-section form .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .navbar-expand-lg .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
